@@ -1,0 +1,76 @@
+body{
+position:relative;
+}
+img{
+position:absolute;
+left: 0;
+top: 0;
+}
+#bg0{
+z-index: 0;
+}
+#bg1{
+z-index: 4;
+pointer-events: none;
+}
+.butterfly{
+width: 100px;
+transition: all 0.5s;
+z-index: 4;
+}
+
+#bt0{
+  left: 300px;
+  top: 60px;
+}
+
+#bt1{
+  left: 500px;
+  top: 400px;
+}
+
+#bt2{
+  left: 100px;
+  top: 300px;
+}
+.foo{
+width: 25px;
+z-index: 3;
+transition: All 0.5s;
+}
+
+#f0{
+left: 400px;
+top:260px;
+}
+#f1{
+left: 500px;
+top:260px;
+}
+#f2{
+left: 600px;
+top:260px;
+}
+#f3{
+left: 300px;
+top:260px;
+}
+#f4{
+left: 700px;
+top:260px;
+}
+
+
+#message{
+position:absolute;
+left: 20px;
+top: 30px;
+width: 400px;
+color:#CC0066;
+background-color: rgba(255,255,255,0.5);
+font-size: 20px;
+font-weight:bold;
+padding: 20px;
+z-index:5;
+pointer-events: none;
+}
